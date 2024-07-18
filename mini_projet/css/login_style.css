@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.raw {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+/* Styling for the login container */
+.login-container {
+    display: flex;
+    grid-template-areas: "left right";
+    max-width: 900px;
+    padding: 20px 30px 40px 30px; /* Increase bottom, right, and left padding */
+}
+
+.left-container {
+    background: #5a6f80;
+    overflow: hidden;
+    padding: 40px 0 0 0;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+/* Styles for the left container */
+.left-container h1 {
+    color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    font-size: 24px;
+
+}
+
+.left-container h1 i {
+    background: #fff;
+    border-radius: 50%;
+    color: #807182;
+    font-size: 24px;
+    margin-right: 5px;
+    padding: 10px;
+    transform: rotate(-45deg);
+}
+
+.left-container .lock {
+    bottom: -5px;
+    position: absolute;
+    text-align: center;
+}
+
+.left-container .lock:before {
+    background: #597081;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.left-container img {
+    filter: sepia(100%);
+    width: 70%;
+}
+
+.right-container {
+    background: white;
+    display: grid;
+    grid-template-areas: "." ".";
+    width: 500px;
+}
+
+/* Styles for the right container */
+.right-container h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.right-container .set {
+    display: flex;
+    flex-direction: column; /* Align fields in a column */
+    align-items: center; /* Center fields horizontally */
+    margin: 10px 0;
+}
+
+.right-container .set .email,
+.right-container .set .password {
+    margin-bottom: 4px; /* Decrease the margin-bottom between Password and the next element */
+    width: 90%;
+}
+
+.right-container input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 5px;
+    padding-right: 10px; /* Decrease the right padding of the inputs */
+    width: calc(100% - 30px); /* Decrease the width of the inputs while keeping padding */
+}
+
+.right-container input,
+.right-container label {
+    color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right-container header {
+    padding: 40px;
+}
+
+.right-container label,
+.right-container input {
+    width: 100%;
+}
+
+.right-container footer {
+    align-items: center;
+    background: #fff;
+    display: grid;
+    padding: 5px 40px;
+    margin-top: -40px; /* Decrease the top margin between the set and footer */
+}
+
+/* Styling for the button with increased size and font size */
+.right-container footer button {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 50px; /* Increase the height of the button */
+    line-height: 50px; /* Adjust line-height accordingly */
+    width: 150px; /* Increase the width of the button */
+    border-radius: 25px; /* Adjust the border-radius accordingly */
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px; /* Increase the font size of the text */
+    background: #5bc1ac;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-container footer button:hover {
+    background: #717275;
+    color: #fff;
+}
