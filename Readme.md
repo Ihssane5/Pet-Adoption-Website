@@ -39,7 +39,7 @@ Check out our project presentation below for a detailed overview:
 <a href="https://www.nationalgeographic.com/animals/article/meet-the-people-helping-morocco-stray-dogs">view here 👩‍🏫</a> 
 
 ## Video Demonstration
-To get a comprehensive overview of the website's functionalities and design, please watch our 10-minute [Video Demonstration](./video.mp4).
+To get a comprehensive overview of the website's functionalities and design, please watch our 10-minute [Video Demonstration](https://www.linkedin.com/posts/ihssanenedjaoui_petadoption-animalwelfare-techforgood-activity-7220083904739766273-tzBc?utm_source=share&utm_medium=member_desktop).
 
 ## Screenshots
 Here are some screenshots showcasing different aspects of the website:
