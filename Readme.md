@@ -31,10 +31,12 @@ This project was developed out of a passion for animal welfare and a desire to m
 - **Database**: Mysql
 - **Additional Tools**: Git, GitHub, Visual Studio Code
 
-Presentation
+## View the presentation
+
 Check out our project presentation below for a detailed overview:
 
-<iframe src="https://www.canva.com/design/DAGF9J9FBHc/1lX_MZEF2vlyTSNY-TKaYA/edit" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+<a src="https://www.canva.com/design/DAGF9J9FBHc/1lX_MZEF2vlyTSNY-TKaYA/edit"/>
+<a href="https://www.nationalgeographic.com/animals/article/meet-the-people-helping-morocco-stray-dogs">view here 👩‍🏫</a> 
 
 ## Video Demonstration
 To get a comprehensive overview of the website's functionalities and design, please watch our 10-minute [Video Demonstration](./video.mp4).
@@ -71,13 +73,15 @@ https://www.youtube.com/watch?v=xY7Vbjdus_0
    ```bash
    git clone https://github.com/your-username/pet-adoption-website.git
    ```
-5. run Apache and Mysql Server from Xampp control Panel:
+5. extract mini_projet and mini_projet_f from mini_projet.zip and mini_projet_f.zip respectively and place them in this directory **C:\xampp\htdocs**
+
+6. run Apache and Mysql Server from Xampp control Panel:
 https://www.youtube.com/watch?v=VCHXCusltqI go directlt to [3:16]
 
-6. open your browser and navigate to:
-http://localhost/Pet-Adoption-Website-Project/mini_projet/Home.html
+7. open your browser and navigate to:
+http://localhost/mini_projet/Home.html
 
-7. Start Your journey 🚀 and let some feedbacks 
+8. Start Your journey 🚀 and let some feedbacks 
 
 
 ## Future Enhancements
